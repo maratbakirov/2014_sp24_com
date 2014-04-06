@@ -43,10 +43,19 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="External Content Types\Northwind\Customers.ect" />
+    <None Include="External Content Types\Northwind\Customers\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6cc1e837-df57-4944-8eb5-f9d08f6af23b}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{95abe271-5165-446a-b846-30b24cd615bd}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{fef38fc5-7a63-435a-9fef-6186c2ac508e}</SharePointProjectItemId>
     </None>
+    <Content Include="External Content Types\Elements.xml" />
+    <Content Include="External Content Types\Northwind\Customers\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>

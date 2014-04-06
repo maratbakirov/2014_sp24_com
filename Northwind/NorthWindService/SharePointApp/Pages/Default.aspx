@@ -34,5 +34,7 @@
             initializing...
         </p>
     </div>
+    
+    <a href="../Lists/Customers">Customers</a>
 
 </asp:Content>

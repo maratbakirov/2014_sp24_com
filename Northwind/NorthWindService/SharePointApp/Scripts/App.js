@@ -24,3 +24,17 @@ function onGetUserNameSuccess() {
 function onGetUserNameFail(sender, args) {
     alert('Failed to get user name. Error:' + args.get_message());
 }
+
+/*
+function SubscribeEntity() {
+    // http://localhost:10484/Northwind.svc/
+    var clientContext = SP.ClientContext.get_current();
+    var web = clientContext.get_web();
+    var notificationCallback = new SP.BusinessData.Runtime.NotificationCallback(context, "http://localhost:10484");
+    var url = web.get_url();
+    notificationCallback.set_notificationContext(url);
+    context.load(notificationCallback);
+    var subscription = entity.subscribe(1, notificationCallback, "", "SubscribeCustomer", lobSystemInstance);
+    context.load(subscription);
+    context.executeQueryAsync(OnSubscribeSuccess, failmethod);
+}*/
