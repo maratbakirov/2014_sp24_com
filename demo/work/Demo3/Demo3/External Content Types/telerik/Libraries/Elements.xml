@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Url="Lists/Libraries" Description="Libraries" OnQuickLaunch="TRUE" Title="Libraries">
+    <DataSource>
+      <Property Name="LobSystemInstance" Value="telerik" />
+      <Property Name="EntityNamespace" Value="TelerikTvDataServiceDataServiceModels" />
+      <Property Name="Entity" Value="Libraries" />
+      <Property Name="SpecificFinder" Value="ReadSpecificLibrary" />
+      <Property Name="MetadataCatalogFileName" Value="BDCMetadata.bdcm" />
+    </DataSource>
+  </ListInstance>
+</Elements>
