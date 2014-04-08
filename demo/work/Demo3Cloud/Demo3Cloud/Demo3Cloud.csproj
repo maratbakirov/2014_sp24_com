@@ -43,10 +43,44 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="External Content Types\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{18e36ae5-408d-4946-b1f6-d27c2fa85e4d}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\telerik\Authors.ect" />
+    <None Include="External Content Types\telerik\Authors\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ff45b16d-0c8a-40ed-aace-04e0cb21bc9f}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\telerik\Channels.ect" />
+    <None Include="External Content Types\telerik\Channels\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51f250b6-aacd-4590-bbf8-f6f2f6baf2b2}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\telerik\Libraries.ect" />
+    <None Include="External Content Types\telerik\Libraries\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4e1ce630-c3fc-4a91-be39-1bd497fd716f}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\telerik\Series.ect" />
+    <None Include="External Content Types\telerik\Series\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d48b7a6-c09e-436e-91eb-96e548c83029}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\telerik\Tags.ect" />
+    <None Include="External Content Types\telerik\Tags\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{291c85a0-ea25-4683-a61b-ad197566fcb1}</SharePointProjectItemId>
+    </None>
+    <None Include="External Content Types\telerik\Videos.ect" />
+    <None Include="External Content Types\telerik\Videos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{02ad13df-9c60-4bea-a35a-f4d49e3ad57e}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{a7ae1e5a-63d1-4e77-bdd6-0ee1da274260}</SharePointProjectItemId>
     </None>
+    <Content Include="External Content Types\Elements.xml" />
+    <Content Include="External Content Types\telerik\Authors\Elements.xml" />
+    <Content Include="External Content Types\telerik\Channels\Elements.xml" />
+    <Content Include="External Content Types\telerik\Libraries\Elements.xml" />
+    <Content Include="External Content Types\telerik\Series\Elements.xml" />
+    <Content Include="External Content Types\telerik\Tags\Elements.xml" />
+    <Content Include="External Content Types\telerik\Videos\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
