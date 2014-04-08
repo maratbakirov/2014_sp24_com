@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="0ea95bbc-aab3-4b23-8966-7aed98ca31ad" 
+        solutionId="0ea95bbc-aab3-4b23-8966-7aed98ca31ad" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Demo3Cloud"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="9c3da7ee-6096-4e03-a529-317133bb7ae0" />
+  </features>
+</package>
