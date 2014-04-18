@@ -4,24 +4,24 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C63798A2-1603-4D73-8FEF-0F3543156BC3}</ProjectGuid>
+    <ProjectGuid>{A936B87C-5B91-4939-BABF-E99BB0FEF0FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo3</RootNamespace>
-    <AssemblyName>Demo3</AssemblyName>
+    <RootNamespace>Demo3Cloud</RootNamespace>
+    <AssemblyName>Demo3Cloud</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
-    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.1</MinimumOfficeToolsVersion>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
     <ProjectMode>SharePointApp</ProjectMode>
-    <AppFeaturePartId>{1fea60c1-0096-4166-829c-dd1e56bd3e5b}</AppFeaturePartId>
-    <WspPartId>{98bff7d8-9cc8-45ea-91a2-ca1b15899701}</WspPartId>
-    <WorkflowPartId>{a3225c16-584f-4ff3-afb8-e1f0c218d0b7}</WorkflowPartId>
-    <CspkgPartId>{a016fb0c-f80f-472c-9f7e-7a667c6f2078}</CspkgPartId>
-    <SqlPackagePartId>{d93548fd-bd6b-4a9d-a3d0-b7558e079e59}</SqlPackagePartId>
+    <AppFeaturePartId>{c8d86ba5-0d69-4a70-925d-6d6ccdf73688}</AppFeaturePartId>
+    <WspPartId>{aa445068-6b2f-4974-bae2-5287faed32b3}</WspPartId>
+    <WorkflowPartId>{275fe7a2-cbf2-4d2c-be3b-cadaf93e6a5c}</WorkflowPartId>
+    <CspkgPartId>{07dfda88-ae14-4b4e-8a45-5e04f8f25765}</CspkgPartId>
+    <SqlPackagePartId>{5bc426ea-cd66-485c-b2de-1729879b4d12}</SqlPackagePartId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,42 +44,37 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="External Content Types\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{e6e97b0b-fd2b-466b-958e-a9451d8b993c}</SharePointProjectItemId>
-    </None>
-    <None Include="External Content Types\telerik\Attachments.ect" />
-    <None Include="External Content Types\telerik\Attachments\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{16f9f377-a36a-4f05-842d-cbeca965e0e2}</SharePointProjectItemId>
+      <SharePointProjectItemId>{18e36ae5-408d-4946-b1f6-d27c2fa85e4d}</SharePointProjectItemId>
     </None>
     <None Include="External Content Types\telerik\Authors.ect" />
     <None Include="External Content Types\telerik\Authors\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{d9d5dfd0-4cca-4ff0-9357-4e1f9824255e}</SharePointProjectItemId>
+      <SharePointProjectItemId>{ff45b16d-0c8a-40ed-aace-04e0cb21bc9f}</SharePointProjectItemId>
     </None>
     <None Include="External Content Types\telerik\Channels.ect" />
     <None Include="External Content Types\telerik\Channels\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{0ae910e1-b24c-4779-b0d3-aaf4e73d5883}</SharePointProjectItemId>
+      <SharePointProjectItemId>{51f250b6-aacd-4590-bbf8-f6f2f6baf2b2}</SharePointProjectItemId>
     </None>
     <None Include="External Content Types\telerik\Libraries.ect" />
     <None Include="External Content Types\telerik\Libraries\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{65b38fc1-6c2a-4bd8-a642-d471e109404e}</SharePointProjectItemId>
+      <SharePointProjectItemId>{4e1ce630-c3fc-4a91-be39-1bd497fd716f}</SharePointProjectItemId>
     </None>
     <None Include="External Content Types\telerik\Series.ect" />
     <None Include="External Content Types\telerik\Series\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{07e435fc-3e5e-4418-8e82-0c21e499f5c8}</SharePointProjectItemId>
+      <SharePointProjectItemId>{6d48b7a6-c09e-436e-91eb-96e548c83029}</SharePointProjectItemId>
     </None>
     <None Include="External Content Types\telerik\Tags.ect" />
     <None Include="External Content Types\telerik\Tags\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{94813a3b-63b8-4383-a118-1d4eabf99038}</SharePointProjectItemId>
+      <SharePointProjectItemId>{291c85a0-ea25-4683-a61b-ad197566fcb1}</SharePointProjectItemId>
     </None>
     <None Include="External Content Types\telerik\Videos.ect" />
     <None Include="External Content Types\telerik\Videos\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{816b337f-2e16-4e05-9ded-b3cb3f580488}</SharePointProjectItemId>
+      <SharePointProjectItemId>{02ad13df-9c60-4bea-a35a-f4d49e3ad57e}</SharePointProjectItemId>
     </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{667104c1-496c-4303-b687-ce9645a6ef9e}</SharePointProjectItemId>
+      <SharePointProjectItemId>{a7ae1e5a-63d1-4e77-bdd6-0ee1da274260}</SharePointProjectItemId>
     </None>
     <Content Include="External Content Types\Elements.xml" />
-    <Content Include="External Content Types\telerik\Attachments\Elements.xml" />
     <Content Include="External Content Types\telerik\Authors\Elements.xml" />
     <Content Include="External Content Types\telerik\Channels\Elements.xml" />
     <Content Include="External Content Types\telerik\Libraries\Elements.xml" />
@@ -92,7 +87,7 @@
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{d93548fd-bd6b-4a9d-a3d0-b7558e079e59}</SharePointProjectItemId>
+      <SharePointProjectItemId>{5bc426ea-cd66-485c-b2de-1729879b4d12}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
@@ -103,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{a8374da4-4024-4d09-9295-90778754002e}</SharePointProjectItemId>
+      <SharePointProjectItemId>{936fc07f-2ec3-492a-b0f8-ffba6d2801d8}</SharePointProjectItemId>
     </None>
     <Content Include="Content\Elements.xml" />
     <Content Include="Content\App.css" />
@@ -114,18 +109,18 @@
     </Content>
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{c1d91e65-1f6a-46b5-a5e7-8bdd1e2d96d1}</SharePointProjectItemId>
+      <SharePointProjectItemId>{3836eee2-89f5-48cc-8cbe-48ab34a2f498}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Package\Package.package">
-      <PackageId>{d2e8cd22-254c-458a-9163-84ea7c210bc3}</PackageId>
+      <PackageId>{0ea95bbc-aab3-4b23-8966-7aed98ca31ad}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{4468af98-c82b-4392-9143-092facfb32ee}</FeatureId>
+      <FeatureId>{9c3da7ee-6096-4e03-a529-317133bb7ae0}</FeatureId>
     </None>
     <None Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
